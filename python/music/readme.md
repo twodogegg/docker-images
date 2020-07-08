@@ -16,7 +16,7 @@ docker exec music 后面带命令就好了
 track 获取不到的问题
 
 下载mp3
-youtube-dl --audio-quality 0  -i --extract-audio --audio-format mp3 --add-metadata  --embed-thumbnail --metadata-from-title "%(artist)s - %(title)s"  -o '%(artist)s - %(title)s.%(ext)s'  https://www.youtube.com/watch?v=b3HCT3EccLc
+youtube-dl --audio-quality 0  -i --extract-audio --audio-format mp3 --add-metadata  --embed-thumbnail --metadata-from-title "%(artist)s - %(title)s"  -o '%(artist)s - %(title)s.%(ext)s'  https://music.youtube.com/watch?v=nuPTe8SN8es
 
 ## 下载最好的视频
 ```
